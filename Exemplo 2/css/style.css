@@ -1,0 +1,38 @@
+body{
+  background-color: #ededed;
+  font-family: sans-serif;
+}
+
+#box{
+  height: 320px;
+  width: 300px;
+  background-color: #fff;
+  margin: 60px auto; 
+}
+
+#box h2{
+  padding-top: 40px;
+  margin-left: 20px; 
+}
+
+#box p{
+  margin-left: 20px; 
+  margin-bottom: 5px; 
+}
+
+#box input{
+  width: 260px;
+  margin: 0 auto 20px auto;
+  display: block;
+  border: 1px solid #000;
+  height: 35px;
+  padding: 0 15px;
+}
+
+#box .certo {
+  border-color: green;
+}
+
+#box .erro{
+  border-color: red;
+}

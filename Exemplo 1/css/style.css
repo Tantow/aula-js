@@ -1,0 +1,25 @@
+button{
+  background-color: #fff;
+  border: 3px solid #000;
+  height: 50px;
+  width: 450px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 20px auto;
+  display: block;
+  transition: 0.5s;
+}
+
+button:hover{
+  background-color: #000;
+  color:#fff;
+  transition: 0.5s;
+}
+
+img{
+  margin: 0 auto;
+  /*display: none;*/
+}
+

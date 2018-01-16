@@ -1,0 +1,37 @@
+body {
+  height: 2000px;
+  position: relative;
+  font-family: 'Lobster', cursive;
+  letter-spacing: 1px;
+  background-color: #8c50c4;
+}
+.intro-copy {
+  padding: 1em;
+  margin:  70px auto;
+  max-width: 800px;
+  font-size: 70px;
+  line-height: 1.2;
+  font-weight: lighter;
+  color: #fff;
+}
+.back-to-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: inline-block;  
+  padding: 1em;
+  margin: 1em;
+  cursor: pointer;
+  color: #8c50c4;
+  background: #fff;
+  border: 2px #fff solid;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.back-to-top:hover {
+  color: #fff;
+  background-color: #8c50c4;
+  transition: 0.3s;
+}
